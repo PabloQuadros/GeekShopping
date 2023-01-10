@@ -57,13 +57,8 @@ namespace GeekShopping.web.Services.IServices
         {
             var response = await _client.PutAsJson(BasePath, model);
             if (response.IsSuccessStatusCode)
-            {
                 return await response.ReadContentAs<ProductModel>();
-            }
-            else
-            {
-                throw new Exception("Something went wrong when calling API");
-            }
+            else throw new Exception("Something went wrong when calling API");
         }
     }
 }

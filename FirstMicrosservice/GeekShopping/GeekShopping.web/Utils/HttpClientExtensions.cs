@@ -23,7 +23,7 @@ namespace GeekShopping.web.Utils
             var dataAsString = JsonSerializer.Serialize(data);
             var content = new StringContent(dataAsString);
             content.Headers.ContentType= contentType;
-            return httpClient.PostAsJson(url,content);
+            return httpClient.PostAsync(url,content);
 
         }
 
@@ -32,7 +32,7 @@ namespace GeekShopping.web.Utils
             var dataAsString = JsonSerializer.Serialize(data);
             var content = new StringContent(dataAsString);
             content.Headers.ContentType = contentType;
-            return httpClient.PutAsJson(url, content);
+            return httpClient.PutAsync(url, content);
 
         }
 
