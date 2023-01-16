@@ -28,14 +28,7 @@ builder.Services.AddAuthentication(options =>
         options.SaveTokens = true;
     });
 
-builder.Services.AddCors(options =>
-{
-    options.AddDefaultPolicy(
-        policy =>
-        {
-            policy.WithOrigins("https://localhost:4440;http://localhost:4441;https://localhost:4435;http://localhost:4436").AllowAnyHeader().AllowAnyMethod();
-        });
-});
+
 
 var app = builder.Build();
 

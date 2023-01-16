@@ -59,6 +59,7 @@ C:\Users\pablo\OneDrive\Documentos\Projetos\erudio-microservices-dotnet7\FirstMi
 C:\Users\pablo\OneDrive\Documentos\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\System.CodeDom.dll
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\appsettings.Development.json
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\appsettings.json
+C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\keys\is-signing-key-C95A4FDE65154329B46206A16641E3D7.json
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\GeekShopping.IdentityServer.staticwebassets.runtime.json
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\GeekShopping.IdentityServer.exe
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\GeekShopping.IdentityServer.deps.json
