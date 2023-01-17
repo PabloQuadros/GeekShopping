@@ -72,7 +72,15 @@ namespace GeekShopping.web.Controllers
             return View(model);
         }
 
-        
+        [Authorize]
+        public async Task<IActionResult> ProductDelete(int id)
+        {
+            var token = await HttpContext.GetTokenAsync("access_token");
+            var model = await _productService.FindProductById(id, token);
+            if (model != null) return View(model);
+            return NotFound();
+        }
+
         [HttpPost]
         [Authorize(Roles = Role.Admin)]
         public async Task<IActionResult> ProductDelete(ProductModel model)
