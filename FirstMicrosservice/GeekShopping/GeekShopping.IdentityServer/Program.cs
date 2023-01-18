@@ -32,7 +32,14 @@ builder.Services.AddIdentityServer(options =>
   .AddAspNetIdentity<ApplicationUser>()
   .AddDeveloperSigningCredential();
 
-
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+        policy =>
+        {
+            policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+        });
+});
 
 var app = builder.Build();
 

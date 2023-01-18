@@ -32,7 +32,7 @@ builder.Services.AddAuthorization(options =>
         policy.RequireClaim("scope", "geek_shopping");
     });
 });
-builder.Services.AddScoped<ICart Repository, CartRepository>();
+builder.Services.AddScoped<ICartRepository, CartRepository>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -65,6 +65,14 @@ builder.Services.AddSwaggerGen(c =>
         });
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+        policy =>
+        {
+            policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+        });
+});
 
 var app = builder.Build();
 

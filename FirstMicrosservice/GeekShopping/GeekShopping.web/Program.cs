@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddHttpClient<IProductService, ProductService>(c=> c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ProductAPI"]));
+builder.Services.AddHttpClient<ICartService, CartService>(c=> c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:CartAPI"]));
 builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication(options => 
 {
@@ -21,14 +22,21 @@ builder.Services.AddAuthentication(options =>
         options.ClientSecret = "my_super_secret";
         options.ResponseType = "code";
         options.ClaimActions.MapJsonKey("role","role","role");
-        options.ClaimActions.MapJsonKey("sub","sub","sup");
+        options.ClaimActions.MapJsonKey("sub","sub","sub");
         options.TokenValidationParameters.NameClaimType = "name";
         options.TokenValidationParameters.RoleClaimType = "role";
         options.Scope.Add("geek_shopping");
         options.SaveTokens = true;
     });
 
-
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+        policy =>
+        {
+            policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+        });
+});
 
 var app = builder.Build();
 

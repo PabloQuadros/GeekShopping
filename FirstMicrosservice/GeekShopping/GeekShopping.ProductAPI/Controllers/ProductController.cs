@@ -69,8 +69,9 @@ namespace GeekShopping.ProductAPI.Controllers
             }
         }
 
-        [Authorize(Roles = Role.Admin)]
+        
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<ActionResult> Delete(long id)
         {
             var status = await _repository.Delete(id);
