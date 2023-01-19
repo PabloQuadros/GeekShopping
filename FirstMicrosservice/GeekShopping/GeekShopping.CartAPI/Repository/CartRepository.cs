@@ -70,7 +70,7 @@ namespace GeekShopping.CartAPI.Repository
                     .Where(c => c.CartHeaderId == cartDetail.CartHeaderId).Count();
 
                 _context.CartDetails.Remove(cartDetail);
-                
+
                 if (total == 1)
                 {
                     var cartHeaderToRemove = await _context.CartHeaders

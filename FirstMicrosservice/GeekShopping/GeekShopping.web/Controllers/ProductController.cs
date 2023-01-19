@@ -5,9 +5,11 @@ using GeekShopping.web.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
 
 namespace GeekShopping.web.Controllers
 {
+
     public class ProductController : Controller
     {
         private readonly IProductService _productService;
@@ -82,10 +84,11 @@ namespace GeekShopping.web.Controllers
         }
 
         [HttpPost]
+        //[Authorize(Roles =Role.Admin)]
         [Authorize]
-        //[Authorize(Roles = Role.Admin)]
-        public async Task<IActionResult> ProductDeleteConfirm(ProductViewModel model)
+        public async Task<IActionResult> ProductDeleteConfirm(ProductViewModel model) 
         {
+            
             var token = await HttpContext.GetTokenAsync("access_token");
             var response = await _productService.DeleteProductById(model.Id,token);
                 if (response) return RedirectToAction(nameof(ProductIndex));

@@ -1,4 +1,5 @@
 using GeekShopping.web.Services.IServices;
+using GeekShopping.web.Utils;
 using Microsoft.AspNetCore.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,6 +30,7 @@ builder.Services.AddAuthentication(options =>
         options.SaveTokens = true;
     });
 
+
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(
@@ -47,7 +49,7 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseCors();
+
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
