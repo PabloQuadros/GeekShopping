@@ -29,9 +29,9 @@ namespace GeekShopping.web.Controllers
             var userId = User.Claims.Where(u => u.Type == "sub")?.FirstOrDefault()?.Value;
 
             var response = await _cartService.RemoveFromCart(id, token);
-            if(response)
+            if(response == true)
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(CartIndex));
             }
             return View();
         }
@@ -44,6 +44,7 @@ namespace GeekShopping.web.Controllers
             var response = await _cartService.FindCartByUserId(userId, token);
             if (response?.CartHeader != null)
             {
+                response.CartHeader.PurchaseAmount = 0;
                 foreach (var detail in response.CartDetails)
                 {
                     response.CartHeader.PurchaseAmount += (detail.Product.Price * detail.Count);
