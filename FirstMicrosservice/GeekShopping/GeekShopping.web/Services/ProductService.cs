@@ -2,8 +2,9 @@
 using GeekShopping.web.Utils;
 using GeekShopping.web.Models;
 using System.Net.Http.Headers;
+using GeekShopping.web.Services.IServices;
 
-namespace GeekShopping.web.Services.IServices
+namespace GeekShopping.web.Services
 {
     public class ProductService : IProductService
     {
@@ -19,22 +20,22 @@ namespace GeekShopping.web.Services.IServices
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             var response = await _client.PostAsJson(BasePath, model);
-            if(response.IsSuccessStatusCode)
+            if (response.IsSuccessStatusCode)
             {
                 return await response.ReadContentAs<ProductViewModel>();
             }
-            else 
+            else
             {
                 throw new Exception("Something went wrong when calling API");
             }
-           
+
         }
 
         public async Task<bool> DeleteProductById(long id, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             var response = await _client.DeleteAsync($"{BasePath}/{id}");
-            if(response.IsSuccessStatusCode) 
+            if (response.IsSuccessStatusCode)
             {
                 return await response.ReadContentAs<bool>();
             }
@@ -42,7 +43,7 @@ namespace GeekShopping.web.Services.IServices
             {
                 throw new Exception("Something went wrong when calling API");
             }
-            
+
         }
 
         public async Task<IEnumerable<ProductViewModel>> FindAllProducts(string token)

@@ -1,9 +1,10 @@
 ﻿using GeekShopping.web.Models;
+using GeekShopping.web.Services.IServices;
 using GeekShopping.web.Utils;
 using System.Net.Http.Headers;
 using System.Reflection;
 
-namespace GeekShopping.web.Services.IServices
+namespace GeekShopping.web.Services
 {
     public class CartService : ICartService
     {
