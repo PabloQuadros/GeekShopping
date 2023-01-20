@@ -1,10 +1,3 @@
-C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.csproj.AssemblyReference.cache
-C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.AssemblyInfoInputs.cache
-C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.AssemblyInfo.cs
-C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.csproj.CoreCompileInputs.cache
-C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\bin\Debug\net7.0\appsettings.Development.json
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\bin\Debug\net7.0\appsettings.json
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\bin\Debug\net7.0\GeekShopping.CouponAPI.exe
@@ -37,6 +30,13 @@ C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekSho
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\bin\Debug\net7.0\System.CodeDom.dll
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.csproj.AssemblyReference.cache
+C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.AssemblyInfoInputs.cache
+C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.AssemblyInfo.cs
+C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.csproj.CoreCompileInputs.cache
+C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\GeekShopping.CouponAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\staticwebassets\msbuild.GeekShopping.CouponAPI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.GeekShopping.CouponAPI.props
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CouponAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.GeekShopping.CouponAPI.props
