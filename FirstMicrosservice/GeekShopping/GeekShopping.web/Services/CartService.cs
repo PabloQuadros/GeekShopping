@@ -99,10 +99,10 @@ namespace GeekShopping.web.Services
             }
         }
 
-        async Task<CartHeaderViewModel> ICartService.Checkout(CartHeaderViewModel model, string token)
+        public async Task<CartHeaderViewModel> Checkout(CartHeaderViewModel model, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            var response = await _client.PostAsJson($"{BasePath}/checkcout", model);
+            var response = await _client.PostAsJson($"{BasePath}/checkout", model);
             if (response.IsSuccessStatusCode)
             {
                 return await response.ReadContentAs<CartHeaderViewModel>();
