@@ -26,7 +26,7 @@ namespace GeekShopping.CartAPI.Repository
                          .FirstOrDefaultAsync(c => c.UserId == userId);
             if (header != null)
             {
-                header.CuponCode= couponCode;
+                header.CouponCode= couponCode;
                 _context.CartHeaders.Update(header);
                 await _context.SaveChangesAsync();
                 return true;
@@ -69,7 +69,7 @@ namespace GeekShopping.CartAPI.Repository
                        .FirstOrDefaultAsync(c => c.UserId == userId);
             if (header != null)
             {
-                header.CuponCode = "";
+                header.CouponCode = "";
                 _context.CartHeaders.Update(header);
                 await _context.SaveChangesAsync();
                 return true;
