@@ -2,6 +2,8 @@ using GeekShopping.web.Services;
 using GeekShopping.web.Services.IServices;
 using GeekShopping.web.Utils;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Localization;
+using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -51,7 +53,25 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+//correção do idioma...
+var cultureInfo = new CultureInfo("pt-BR");
+var localOptions = new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new RequestCulture(cultureInfo),
+    SupportedCultures = new List<CultureInfo> { cultureInfo },
+    SupportedUICultures = new List<CultureInfo> { cultureInfo }
+};
+app.UseRequestLocalization(localOptions);
 
+cultureInfo.NumberFormat.NumberDecimalSeparator = ".";
+cultureInfo.NumberFormat.CurrencyDecimalSeparator = ",";
+cultureInfo.NumberFormat.NumberDecimalDigits = 2;
+cultureInfo.NumberFormat.CurrencyDecimalDigits = 2;
+
+CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
+CultureInfo.CurrentCulture = cultureInfo;
+//fim da correção do idioma...
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
