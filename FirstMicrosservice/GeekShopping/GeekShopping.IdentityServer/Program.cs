@@ -13,12 +13,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+
 string mySqlConnection = builder.Configuration.GetConnectionString("MySQLConnectionString");
 builder.Services.AddDbContextPool<MySQLContext>(options => options.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection)));
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<MySQLContext>().AddDefaultTokenProviders();
-builder.Services.AddScoped<IDbInitializer, DbInitializer>();
-builder.Services.AddScoped<IProfileService, ProfileService>();
+builder.Services.AddControllersWithViews();
 builder.Services.AddIdentityServer(options =>
 {
     options.Events.RaiseErrorEvents = true;
@@ -27,10 +26,17 @@ builder.Services.AddIdentityServer(options =>
     options.Events.RaiseSuccessEvents = true;
     options.EmitStaticAudienceClaim = true;
 }).AddInMemoryIdentityResources(IdentityConfiguration.IdentityResources)
-  .AddInMemoryApiScopes(IdentityConfiguration.ApiScopes )
+  .AddInMemoryApiScopes(IdentityConfiguration.ApiScopes)
   .AddInMemoryClients(IdentityConfiguration.Clients)
   .AddAspNetIdentity<ApplicationUser>()
-  .AddDeveloperSigningCredential();
+ .AddDeveloperSigningCredential();
+
+
+builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+builder.Services.AddScoped<IProfileService, GeekShopping.IdentityServer.Services.ProfileService>();
+
+
+
 
 builder.Services.AddCors(options =>
 {
@@ -43,16 +49,13 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-using (var serviceScope = app.Services.CreateScope())
-{
-    var services = serviceScope.ServiceProvider;
-   
-    var myDependency = services.GetRequiredService<IDbInitializer>();
-    
-    //Use the service
-    myDependency.Initialize();
+var serviceScope = app.Services.CreateScope();
+var services = serviceScope.ServiceProvider;  
+var myDependency = services.GetRequiredService<IDbInitializer>();   
+//Use the service
+myDependency.Initialize();
 
-}
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
