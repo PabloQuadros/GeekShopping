@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4T1fAF9LD3ZMj8CyTSU/F1QOw06AhssAj/UgWO0vkYRIb/pcVN2xsN54lyPuABkP1E5Im1HOC5ofvlqmgNQ7dQ==",
+  "dgSpecHash": "2D9G7wIZ6iiQZGk0gffKJoq2Bn6mGKj7CUgghq3qC7R3ZokinvxiHOBjXcimUVTgUZTM6WGVLbAWxxKAONGS0w==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\erudio-microservices-dotnet7\\FirstMicrosservice\\GeekShopping\\GeekShopping.CartAPI\\GeekShopping.CartAPI.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,7 @@
     "C:\\Users\\pablo.quadros\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\pablo.quadros\\.nuget\\packages\\mysqlconnector\\2.2.2\\mysqlconnector.2.2.2.nupkg.sha512",
     "C:\\Users\\pablo.quadros\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0-silver.1\\pomelo.entityframeworkcore.mysql.7.0.0-silver.1.nupkg.sha512",
+    "C:\\Users\\pablo.quadros\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
     "C:\\Users\\pablo.quadros\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\pablo.quadros\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.4.0\\swashbuckle.aspnetcore.annotations.6.4.0.nupkg.sha512",
     "C:\\Users\\pablo.quadros\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
@@ -43,9 +44,11 @@
     "C:\\Users\\pablo.quadros\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
     "C:\\Users\\pablo.quadros\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\pablo.quadros\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.15.1\\system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "C:\\Users\\pablo.quadros\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\pablo.quadros\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\pablo.quadros\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\pablo.quadros\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+    "C:\\Users\\pablo.quadros\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\pablo.quadros\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

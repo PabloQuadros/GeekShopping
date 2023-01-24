@@ -51,3 +51,6 @@ C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekSho
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CartAPI\obj\Debug\net7.0\GeekShopping.CartAPI.pdb
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CartAPI\obj\Debug\net7.0\GeekShopping.CartAPI.genruntimeconfig.cache
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CartAPI\obj\Debug\net7.0\ref\GeekShopping.CartAPI.dll
+C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CartAPI\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CartAPI\bin\Debug\net7.0\GeekShopping.MessageBus.dll
+C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.CartAPI\bin\Debug\net7.0\GeekShopping.MessageBus.pdb
