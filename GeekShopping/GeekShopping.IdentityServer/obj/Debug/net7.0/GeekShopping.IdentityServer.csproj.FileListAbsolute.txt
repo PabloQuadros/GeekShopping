@@ -177,3 +177,4 @@ C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.IdentityServe
 C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net7.0\GeekShopping.IdentityServer.pdb
 C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net7.0\GeekShopping.IdentityServer.genruntimeconfig.cache
 C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net7.0\ref\GeekShopping.IdentityServer.dll
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\keys\is-signing-key-C052A3657CD8112F84273F0AD5192C97.json

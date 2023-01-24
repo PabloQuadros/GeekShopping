@@ -1,4 +1,5 @@
 using AutoMapper;
+using GeekShopping.OrderAPI.MessageConsumer;
 using GeekShopping.OrderAPI.Model.Context;
 using GeekShopping.OrderAPI.Repository;
 using Microsoft.EntityFrameworkCore;
@@ -33,8 +34,8 @@ builder.Services.AddAuthorization(options =>
 });
 
 builder.Services.AddSingleton(new OrderRepository(db.Options));
+builder.Services.AddHostedService<RabbitMQCheckoutConsumer>();
 
-//builder.Services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
