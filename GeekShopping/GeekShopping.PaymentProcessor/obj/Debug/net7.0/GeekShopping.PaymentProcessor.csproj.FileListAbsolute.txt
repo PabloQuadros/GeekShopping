@@ -1,0 +1,12 @@
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.PaymentProcessor\bin\Debug\net7.0\GeekShopping.PaymentProcessor.deps.json
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.PaymentProcessor\bin\Debug\net7.0\GeekShopping.PaymentProcessor.dll
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.PaymentProcessor\bin\Debug\net7.0\GeekShopping.PaymentProcessor.pdb
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.PaymentProcessor\obj\Debug\net7.0\GeekShopping.PaymentProcessor.csproj.AssemblyReference.cache
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.PaymentProcessor\obj\Debug\net7.0\GeekShopping.PaymentProcessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.PaymentProcessor\obj\Debug\net7.0\GeekShopping.PaymentProcessor.AssemblyInfoInputs.cache
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.PaymentProcessor\obj\Debug\net7.0\GeekShopping.PaymentProcessor.AssemblyInfo.cs
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.PaymentProcessor\obj\Debug\net7.0\GeekShopping.PaymentProcessor.csproj.CoreCompileInputs.cache
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.PaymentProcessor\obj\Debug\net7.0\GeekShopping.PaymentProcessor.dll
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.PaymentProcessor\obj\Debug\net7.0\refint\GeekShopping.PaymentProcessor.dll
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.PaymentProcessor\obj\Debug\net7.0\GeekShopping.PaymentProcessor.pdb
+C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.PaymentProcessor\obj\Debug\net7.0\ref\GeekShopping.PaymentProcessor.dll
