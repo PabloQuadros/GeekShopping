@@ -39,8 +39,8 @@ namespace GeekShopping.OrderAPI.MessageConsumer
             {
                 var content = Encoding.UTF8.GetString(evt.Body.ToArray());
                 CheckoutHeaderVO vo = JsonSerializer.Deserialize<CheckoutHeaderVO>(content);
-                _channel.BasicAck(evt.DeliveryTag, false);
                 ProcessOrder(vo).GetAwaiter().GetResult();
+                _channel.BasicAck(evt.DeliveryTag, false);
             };
             _channel.BasicConsume("checkoutqueue",false,consumer);
             return Task.CompletedTask;
@@ -67,6 +67,7 @@ namespace GeekShopping.OrderAPI.MessageConsumer
                 DateTime = vo.DateTime
             };
 
+            order.CartTotalItens = 0;
             foreach (var details in vo.CartDetails)
             {
                 OrderDetail detail = new()

@@ -7,7 +7,7 @@ namespace GeekShopping.OrderAPI.Model
     [Table("order_detail")]
     public class OrderDetail : BaseEntity
     {
-        public long CartHeaderId { get; set; }
+        public long OrderHeaderId { get; set; }
         [ForeignKey("OrderHeaderId")]
         public virtual OrderHeader? OrderHeader { get; set; }
 

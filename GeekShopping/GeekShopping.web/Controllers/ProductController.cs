@@ -84,8 +84,7 @@ namespace GeekShopping.web.Controllers
         }
 
         [HttpPost]
-        //[Authorize(Roles =Role.Admin)]
-        [Authorize]
+        [Authorize(Roles =Role.Admin)]
         public async Task<IActionResult> ProductDeleteConfirm(ProductViewModel model) 
         {
             
