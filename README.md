@@ -12,8 +12,7 @@ The purpose of this project was to deepen my studies in microservices using C# a
 
 
 
-## 
-Introducing the project 🎬
+## Introducing the project 🎬
 
 ![App Screenshot](https://github.com/PabloQuadros/GeekShopping/blob/main/GeekShopping/GeekShopping.web/wwwroot/Images/demonstracao.gif?raw=true)
 ##
