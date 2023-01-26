@@ -10,15 +10,3 @@ C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekSho
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.MessageBus\obj\Debug\net7.0\refint\GeekShopping.MessageBus.dll
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.MessageBus\obj\Debug\net7.0\GeekShopping.MessageBus.pdb
 C:\Projetos\erudio-microservices-dotnet7\FirstMicrosservice\GeekShopping\GeekShopping.MessageBus\obj\Debug\net7.0\ref\GeekShopping.MessageBus.dll
-C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.MessageBus\bin\Debug\net7.0\GeekShopping.MessageBus.deps.json
-C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.MessageBus\bin\Debug\net7.0\GeekShopping.MessageBus.dll
-C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.MessageBus\bin\Debug\net7.0\GeekShopping.MessageBus.pdb
-C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.MessageBus\obj\Debug\net7.0\GeekShopping.MessageBus.csproj.AssemblyReference.cache
-C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.MessageBus\obj\Debug\net7.0\GeekShopping.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.MessageBus\obj\Debug\net7.0\GeekShopping.MessageBus.AssemblyInfoInputs.cache
-C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.MessageBus\obj\Debug\net7.0\GeekShopping.MessageBus.AssemblyInfo.cs
-C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.MessageBus\obj\Debug\net7.0\GeekShopping.MessageBus.csproj.CoreCompileInputs.cache
-C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.MessageBus\obj\Debug\net7.0\GeekShopping.MessageBus.dll
-C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.MessageBus\obj\Debug\net7.0\refint\GeekShopping.MessageBus.dll
-C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.MessageBus\obj\Debug\net7.0\GeekShopping.MessageBus.pdb
-C:\Projetos\erudio-microservices-dotnet7\GeekShopping\GeekShopping.MessageBus\obj\Debug\net7.0\ref\GeekShopping.MessageBus.dll
